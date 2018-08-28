@@ -1,0 +1,38 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "team.redrock.microboot.config.qiniu.QiNiuProperties",
+      "name": "qiniu",
+      "type": "team.redrock.microboot.config.qiniu.QiNiuProperties"
+    },
+    {
+      "sourceType": "team.redrock.microboot.config.DruidConfig",
+      "name": "spring.datasource",
+      "sourceMethod": "druidDataSource()",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "team.redrock.microboot.config.qiniu.QiNiuProperties",
+      "name": "qiniu.access-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "team.redrock.microboot.config.qiniu.QiNiuProperties",
+      "name": "qiniu.bucket",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "team.redrock.microboot.config.qiniu.QiNiuProperties",
+      "name": "qiniu.bucket-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "team.redrock.microboot.config.qiniu.QiNiuProperties",
+      "name": "qiniu.secret-key",
+      "type": "java.lang.String"
+    }
+  ]
+}

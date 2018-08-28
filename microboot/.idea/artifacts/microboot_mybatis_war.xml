@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="microboot-mybatis:war">
+    <output-path>$PROJECT_DIR$/microboot-mybatis/target</output-path>
+    <root id="archive" name="bbm.war">
+      <element id="artifact" artifact-name="microboot-mybatis:war exploded" />
+    </root>
+  </artifact>
+</component>
